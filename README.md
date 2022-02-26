@@ -14,12 +14,12 @@ Morgan Quigley, Brian Gerkey, William D. Smart 著,河田 卓志 監訳,松田 �
 # How to
 Check URDF structure
 ```
-check_urdf urdf/cougarbot.urdf
+check_urdf cougarbot.urdf
 ```
 
 Watch URDF in rviz
 ```
-roslaunch urdf_tutorial display.launch model:=urdf/cougarbot.urdf
+roslaunch urdf_tutorial display.launch model:=cougarbot.urdf
 ```
 Launch Gazebo simulator
 ```
