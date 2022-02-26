@@ -9,8 +9,8 @@
 	<node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model cougarbot"/>
 
 	<!-- Load controller to param server -->
-    	<rosparam file="$(find cougarbot)/yaml/controllers.yaml" command="load"/>
+    <rosparam file="$(find cougarbot)/yaml/controllers.yaml" command="load"/>
     	
 	<!-- Make Controller -->
-    	<node name="controller_spawner" pkg="controller_manager" type="spawner" args="arm_controller"/>
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" args="arm_controller"/>
 </launch>
