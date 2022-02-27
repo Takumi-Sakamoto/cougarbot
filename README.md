@@ -42,3 +42,8 @@ the elements of time_fron_start must be int type
 ```
 rqt_plot '/joint_states/position[0]' '/joint_states/position[1]' '/joint_states/position[2]' '/joint_states/position[3]'
 ```
+
+## launch Moveit simulator
+```
+roslaunch cougarbot start_moveit.launch
+```
